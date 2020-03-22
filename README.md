@@ -3,10 +3,10 @@
 Steganography is any method of encoding a message in such a way that it is not apparent that a message is even hidden. This program hides an image inside an image. Usage requires two images. One image, called the carrier image, can be any image. The other, the message image, must be a black and white image and have the exact same dimensions as the carrier image. The new image that is created will be visually indistiguishable from the carrier image but will have the message in the message image encoded in it.
 
 # Usage:
-To encode a file:
-	-encode INPUT_FILE MESSAGE_FILE OUTPUT_FILE	
-To decode a file:
-	-decode INPUT_FILE OUTPUT_FILE
+To encode a file:  
+	-encode INPUT_FILE MESSAGE_FILE OUTPUT_FILE  
+To decode a file:  
+	-decode INPUT_FILE OUTPUT_FILE  
 	
 	
 # Examples:
