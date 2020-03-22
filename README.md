@@ -1,6 +1,6 @@
 # steganography
 
-Steganography is any method of encoding a message in such a way that it is not apparent that a message is even hidden. This program hides an image inside an image. Usage requires two images. One image, called the carrier image, can be any image. The other, the message image, must be a black and white image and have the exact same dimensions as the carrier image. The new image that is created will be visually indistiguishable from the carrier image but will have the message in the message image encoded in it.
+Steganography is any method of encoding a message in such a way that it is not apparent that a message is even hidden. This program hides an image inside an image. Usage requires two images. One image, called the carrier image, can be any image. The other, the message image, must be a black and white image and have the exact same dimensions as the carrier image. The new image that is created will be visually indistiguishable from the carrier image but will have the message in the message image encoded in it. This program using least significant bit encoding to hide the message.
 
 # Usage:
 To encode a file:  
